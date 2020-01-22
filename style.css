@@ -1,0 +1,21 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    background-color: #272822;
+}
+
+div {
+    text-align: center;
+}
+
+input {
+    display: inline-block;
+}
