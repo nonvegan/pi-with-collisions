@@ -19,8 +19,8 @@ range.addEventListener('input', () => {
 divRanges.appendChild(range)
 divRanges.appendChild(rangeLabel)
 range.value = 2
-const width = 800
-const height = 800
+const width = 700
+const height = 700
 canvas.width = width
 canvas.height = height
 let speed = range.value
