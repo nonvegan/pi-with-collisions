@@ -13,14 +13,19 @@ range.addEventListener('input', () => {
     rangeLabel.innerText = range.value + " Digits"
     count = 0
     block1 = new Block(100, 0, 50 * nDigits, 50 * nDigits, Math.pow(100, nDigits - 1), 2, ctx)
-    block2 = new Block(500, 0, 50, 50, 1, 0, ctx)
+    block2 = new Block(400, 0, 50, 50, 1, 0, ctx)
 
 })
 divRanges.appendChild(range)
 divRanges.appendChild(rangeLabel)
 range.value = 2
+<<<<<<< HEAD
 const width = 700
 const height = 700
+=======
+const width = 600
+const height = 600
+>>>>>>> 74010d3f838ebc2320806ca10291c786ea06211b
 canvas.width = width
 canvas.height = height
 let speed = range.value
